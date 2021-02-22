@@ -1,0 +1,185 @@
+.folder{
+    font-size: 25px;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+}
+
+.item-row{
+    margin-top: 20px;
+    border-top: #80808054;
+    border-top-style: solid;
+    border-top-width: 0.4px;
+    border-bottom: #80808054;
+    border-bottom-style: solid;
+    border-bottom-width: 0.4px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.button{
+    color: black;
+    border: none;
+    background-color: transparent;
+    line-height: inherit;
+    cursor: pointer;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    white-space: nowrap;
+    transition: all 0.3s;
+}
+.button:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.fa-file{
+  color: grey;
+}
+.pdf{
+    color: red;
+    font-size: 18px;
+}
+.doc{
+    color: rgb(5, 5, 190);
+    font-size: 18px;
+}
+.xls{
+    color: green;
+    font-size: 18px;
+}
+
+.Folder{
+    color: #F8D775;
+    font-size: 18px;
+}
+
+.search-box {
+    position: relative;
+    right: 10px;
+    transform: translate(-5%);
+    border: solid 1px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+  }
+  
+  .search-btn {
+    color: white;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+  }
+  
+  .search-input {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0;
+  }
+  
+  .search-box:hover > .search-input {
+    width: 250px;
+    padding: 0 7px;
+  }
+  
+  .breadcrumb {
+    background-color: transparent!important;
+  }
+  .arrow {
+    /* margin-top: 5px; */
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .breadcrumb-item::before {
+    display: none !important;
+  }
+  .last {
+    pointer-events: none;
+    cursor: none;
+  }
+  .black-text{
+    color: black;
+    font-size: 15px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+  }
+  .black-text:hover{
+    font-size: 15.3px;
+    text-decoration: none;
+  }
+
+  .error{
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+  }
+  .icon{
+    font-size: 20px;
+    color: grey;
+  }
+
+  .edit:hover{
+    color: rgb(190, 178, 40);
+  }
+  .delete:hover{
+    color: red;
+  }
+  .copy:hover{
+    color: rgb(169, 169, 253);
+  }
+  .move:hover{
+    color: coral;
+  }
+
+  .padding{
+    padding: 5px;
+  }
+
+.custom-modal>.modal-content{
+  height: 80vh;
+  width: 80vw;
+}
+
+.custom-modal.modal-dialog{
+  max-width: 80vw!important;
+}
+
+[type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+[type="file"] + label {
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: inherit;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+}
+[type="file"] + label:hover {
+  text-decoration: none;
+    color: grey;
+}

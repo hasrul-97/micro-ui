@@ -1,0 +1,25 @@
+.breadcrumb {
+    background-color: transparent!important;
+  }
+  .arrow {
+    /* margin-top: 5px; */
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .breadcrumb-item::before {
+    display: none !important;
+  }
+  .last {
+    pointer-events: none;
+    cursor: none;
+  }
+  .black-text{
+    color: black;
+    font-size: 15px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+  }
+  .black-text:hover{
+    font-size: 15.3px;
+    text-decoration: none;
+  }
